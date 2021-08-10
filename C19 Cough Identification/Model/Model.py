@@ -24,11 +24,11 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dropout(0.5),
     # 512 neuron hidden layer
     tf.keras.layers.Dense(256, activation='relu'),
-    tf.keras.layers.Dense(2, activation='softmax') 
+    tf.keras.layers.Dense(2, activation='sigmoid') 
 ])
 
 #compile model
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.summary()
 
 #fit model
