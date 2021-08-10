@@ -1,3 +1,5 @@
+This is not research on my thesis. Just a project I'm trying to make.
+
 The data used to build this model is taken from the following link https://github.com/virufy/virufy-covid.
 Thanks to virufy who can provide this data.
 This data is initially in mp3 format and then converted into wav format.
