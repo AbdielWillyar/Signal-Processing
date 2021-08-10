@@ -12,6 +12,6 @@ The data formed is divided into training and test data and entered into the CNN 
 
 After being tested, this model has a loss of 0.3084 and an accuracy of 0.9130
 
-This confusion matrix model can be seen in the confusion matrix image with the label:
+This confusion matrix model can be seen in the confusion matrix image (CMc19.png) with the label:
 0 : Negative
 1: Positive
